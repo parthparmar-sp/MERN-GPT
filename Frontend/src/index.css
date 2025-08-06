@@ -1,0 +1,50 @@
+.main-container {
+  display: flex;
+  height: 100vh;
+}
+
+.sidebar {
+  width: 250px;
+  background: #111;
+  color: #fff;
+  padding: 20px;
+  overflow-y: auto;
+}
+
+.chat-section {
+  flex: 1;
+  padding: 20px;
+  background: #1e1e1e;
+  color: #fff;
+}
+
+.prompt-input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  margin-bottom: 20px;
+  background: #2d2d2d;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.response-box {
+  background: #2a2a2a;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.actions button {
+  margin-right: 10px;
+  background: #333;
+  border: none;
+  color: white;
+  padding: 8px 12px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.actions button:hover {
+  background: #555;
+}
